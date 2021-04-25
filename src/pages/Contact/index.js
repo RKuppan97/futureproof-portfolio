@@ -17,15 +17,15 @@ const Contact = () => {
     }
 
     return(
-        <div>
-            <div className="container">
-            <div className="form-text">
-                <h2>Get in touch!</h2>
-                <br/>
-                <p>Please feel free to get in touch about ways to improve my projects and any other suggestions below.</p>
-                <br/>
-            </div>
-            <form onSubmit={sendEmail}>
+        <div className="contact-main-container">
+            <div className="container contact-container-two">
+                <div className="form-text">
+                    <h2>Get in touch!</h2>
+                    <br/>
+                    <p>Please feel free to get in touch about ways to improve my projects and any other suggestions below.</p>
+                    <br/>
+                </div>
+                <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
 
                         <div className="form-parameters">

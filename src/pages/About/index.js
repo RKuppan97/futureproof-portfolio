@@ -33,7 +33,13 @@ const About = () => {
                         <h2>Skills</h2>
                     </div>
                     <div className="content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cum voluptates quos magnam ad dolores harum voluptatibus et a illum.</p>
+                        <p>Below is a list of the skills that I have been learning in the past year.</p>
+                        <img src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png" alt=""/>
+                        <img src="https://pngimg.com/uploads/mysql/mysql_PNG23.png" alt=""/>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" alt=""/>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt=""/>
+                        <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" alt=""/>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt=""/>
                     </div>
                 </div>
                 <div className="card">
@@ -42,7 +48,14 @@ const About = () => {
                         <h2>Ambitions</h2>
                     </div>
                     <div className="content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cum voluptates quos magnam ad dolores harum voluptatibus et a illum.</p>
+                        <p>In general, I am a highly curious individual with an open mind when it comes to learning new skills both in my personal and professional life.</p>
+                        <br/>
+                        <p>My main ambition is to work with a company that aligns with my goals for improving the world around me through business/technology and continous development/learning.</p>
+                        <br/>
+                        <ul>Some key fields of interest include: </ul>
+                        <li>finance/investments/economics</li>
+                        <li>science/healthcare</li>
+                        <li>renewable energy</li>
                     </div>
                 </div>
             </div>

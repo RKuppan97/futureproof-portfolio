@@ -17,6 +17,14 @@
      height: vh;
  }
 
+ .projects-body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: white;
+     width: 790px;
+ }
+
  .container {
      position: relative;
      width: 750px;
@@ -25,7 +33,7 @@
      justify-content: center;
      align-items: center;
      flex-wrap: wrap;
-     padding: 30px
+     padding: 30px;
  }
 
  .container .card {
@@ -128,7 +136,7 @@
     padding-bottom: 20px; 
     width: 300px;
     height: 550px; 
-    border-radius: 4%;
+    border-radius: 6%;
  }
 
  .welcome-bottom img {
@@ -282,7 +290,118 @@
     left: 45px;
 }
 
-  
+.contact-main-container {
+    height: 700px; 
+}
+
+/* project page */
+.projects-container {
+    position: relative;
+    width:790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:30px;
+    padding-left: 0px;
+    margin: 0px; 
+    border-left: 0px;
+}
+
+.projects-container .projects-card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.projects-container .projects-card:hover {
+    height: 420px;
+
+}
+
+.projects-container .projects-card .projects-image {
+    position: relative;
+    width: 260px; 
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.projects-container .projects-card .projects-image img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.projects-container .projects-card .projects-content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s, ease-in-out;
+
+}
+
+.projects-container .projects-card:hover .projects-content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+.intro-projects {
+    width: 790px; 
+}
+
+.image__description {
+    position: relative;
+    text-align: center;
+    left: -20px
+    
+}
+
+.image__desc__two {
+    position: relative;
+    text-align: center;
+    left: 30px
+}
+
+.content img {
+    width: 80px;
+    height: 80px; 
+    margin: 30px; 
+}
+
+.projects-content h2 {
+    font-family: Dancing Script;
+}
+
+.projects-content a {
+    font-family: Dancing Script;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+
+.projects-card {
+    width: 1000px;
+}
+
+.projects-image {
+    position: relative;
+    top: -10px;
+}
+
 
 
 
