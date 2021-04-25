@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather+Sans:wght@300&display=swap');
+
+nav {
+    width: 100%;
+    background-color: var(--primary);
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a { 
+    color: var(--opacity);
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: Merriweather Sans;
+}
+
+a:hover { 
+    font-weight: 800;
+    color: white;
+}
+
+.active {
+    color: white;
+}
+
+.home-link { color: #606440; }
+
+.nav-head {
+    width: 820px
+}

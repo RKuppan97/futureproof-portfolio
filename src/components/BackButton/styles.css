@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,700&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather+Sans:wght@300&display=swap');
+
+#back-button { 
+    color: var(--opacity);
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: Merriweather Sans;
+    background-color: white;
+    border: white;
+}
+
+a:hover { 
+    font-weight: 800;
+    color: red;
+}
